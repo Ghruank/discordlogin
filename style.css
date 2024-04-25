@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+.logincontainer{
+    display: flex;
+    align-items: center;
+    background-color: #313338;
+    color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    padding: 10px;
+    padding-right: 30px;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+.texthead{
+    font-size: 30px;
+}
+.inputs{
+    padding: 10px;
+}
+label{
+    font-size: 12px;
+    color: #b5bac1;
+    padding: 3px;
+}
+.textsubhead{
+    font-size: 20px;
+    color: #acb1b8;
+}
+.a{
+    color: #0894db;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.qrform{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.invalid{
+    font-size: 15px;
+    color: red;
+}
+.qrform>.texthead{
+    font-size: 25px;
+    padding: 5px;
+}
+.qrform>.textsubhead{
+    font-size: 15px;
+    padding: 5px;
+}
+.ending>p{
+    color: #acb1b8;
+    font-size: 15px;
+}
+
+button{
+    background-color: #5865f2;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+.ending{
+    padding: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+input{
+    background-color: #1e1f22;
+    border-radius: 5px;
+    height: 20px;
+    color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+body {
+    background-image: url('./discordlogin.png'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the image */
+  }
+  .hehe{
+    display: flex;
+    flex-direction: column;
+  }
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

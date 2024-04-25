@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="logincontainer">
+            <div class="loginform">
+                <div class="text">
+                    <div class="texthead">Welcome to Discord</div>
+                    <div class="textsubhead">We're so excited to see you!</div>
+                </div>
+                <br/>
+                <div class="inputs">
+                    <div class="reg"></div>
+                    <label for="input_id1">EMAIL OR PHONE NUMBER<span style="color: red;">*</span></label>
+                    <input type="text" id="input_id1" name="input_name">
+                    <div class="invalid inv1"></div>
+                    <br/>
+    
+                    <label for="input_id2">PASSWORD<span style="color: red;">*</span></label>
+                    <input type="text" id="input_id2" name="input_name">
+                    <div class="invalid inv2"></div>
+                    <br/>
+                    <div class="a d">Forgot your password?</div>
+                </div>
+                <div class="ending">
+                    <button onclick="onClick()">Log In</button>
+                <div class="flexrow">
+                    <p >Need an account?  <div 
+                        class="a" onclick="register()" href="">Register</div></p>
+                </div>
+                </div>
+            </div>
+            <div class="qrform">
+                <img src="./discordqr.png" alt="">
+                <div class="texthead">Log In with QR Code</div>
+                <div class="textsubhead">Scan this with <b>Discord mobile app</b> to log in instantly.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
